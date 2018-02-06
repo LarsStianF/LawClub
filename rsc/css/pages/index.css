@@ -1,0 +1,66 @@
+/* Root variabler */
+:root{
+	--nav-height-minus: -6rem;
+}
+
+[data-bg-color="navy"]{
+	background-color: #000033;
+}
+
+[data-fullscreen]{
+    /* Visning: */
+    align-items: center; 
+
+    /* Dimensjoner: */
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    /* Posisjon: */
+    padding: 0 0;
+    margin-top: var(--nav-height-minus);
+}
+
+/* Bilde og video etter section tag dekker hele skjermen (Bakgrunn) */
+section > img,
+section > video{
+    /* Visning: */
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+
+    /* Dimensjoner: */
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+    /* Posisjon: */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Synlighet: */
+    z-index: -1;
+}
+
+/* Skaper en fin overlay som gjør fargen mørkere eller lysere */
+[data-overlay]::after{
+    /* Visning: */
+    display: flex;
+    content: "";
+    z-index: -1;
+
+    /* Dimensjoner: */
+    min-width: 100%;
+    min-height: 100%;
+
+    /* Posisjon: */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+[data-overlay="dark"]::after{background-color: rgba(0, 0, 0, 0.3);}
+[data-overlay="light"]::after{background-color: rgba(255, 255, 255, 0.3);}
