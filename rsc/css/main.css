@@ -1,0 +1,15 @@
+[data-text="white"]{
+	color: white;
+}
+
+[data-bg-color="black"]{background-color: black;}
+[data-bg-color="grey"]{background-color: grey;}
+[data-bg-color="blue"]{background-color: blue;}
+[data-bg-color="black"]{background-color: black;}
+[data-bg-color="black"]{background-color: black;}
+
+.bgColorGrey
+
+.fontLarge{
+	font-size: 20px;
+}
