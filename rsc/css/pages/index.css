@@ -1,12 +1,17 @@
 /* Root variabler */
 :root{
+    /* Header/nav bar */
 	--nav-height-minus: -6rem;
+
+    /* Color */
+    --navy-blue: #000033;
 }
 
 [data-bg-color="navy"]{
-	background-color: #000033;
+	background-color: var(--navy-blue);
 }
 
+/* Data attribute that makes img/video cover the screen*/
 [data-fullscreen]{
     /* Visning: */
     align-items: center; 
@@ -21,7 +26,7 @@
     margin-top: var(--nav-height-minus);
 }
 
-/* Bilde og video etter section tag dekker hele skjermen (Bakgrunn) */
+/* img and video after a section tag covers the whole screen */
 section > img,
 section > video{
     /* Visning: */
@@ -45,6 +50,7 @@ section > video{
     /* Synlighet: */
     z-index: -1;
 }
+/* img and video css end */
 
 /* Skaper en fin overlay som gjør fargen mørkere eller lysere */
 [data-overlay]::after{
@@ -64,3 +70,44 @@ section > video{
 }
 [data-overlay="dark"]::after{background-color: rgba(0, 0, 0, 0.3);}
 [data-overlay="light"]::after{background-color: rgba(255, 255, 255, 0.3);}
+/* Overlay css end */
+
+/* Nav bar settings */
+nav > div > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > div > ul > li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav > div > ul > li:last-child {
+    border-right: none;
+}
+
+nav > div > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.active {
+    background-color: var(--navy-blue);
+    color: white;
+}
+
+nav > div > ul > li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
