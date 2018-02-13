@@ -1,7 +1,7 @@
 /* Root variabler */
 :root{
     /* Header/nav bar */
-	--nav-height-minus: 3.2rem;
+	--nav-height-minus: -8rem;
 
     /* Color */
     --navy-blue: #000033;
@@ -10,14 +10,20 @@
     --light-grey: #F7F7F7;
 }
 
-body {
-    margin-top: var(--nav-height-minus);
-}
-
 [data-font="white"]{color: white;}
 
 [data-bg-color="navy"]{background-color: var(--navy-blue);color: white;}
 [data-bg-color="Teal"]{background-color: var(--light-blue);}
+
+/* Caption text */
+[data-text-middle] {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 60%;
+  width: 100%;
+  text-align: center;
+}
 
 /* Data attribute that makes img/video cover the screen*/
 [data-fullscreen]{
