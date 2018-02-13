@@ -29,6 +29,20 @@ button:hover {
     opacity: 0.8;
 }
 
+/* Center the avatar image  */
+.img {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+
+/* Add padding  */
+.innhold {
+    padding: 17vW;
+    width: 30vw;  
+    text-align: left;
+}
 
 
 
