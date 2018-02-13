@@ -1,15 +1,19 @@
 /* Root variabler */
 :root{
     /* Header/nav bar */
-	--nav-height-minus: -6rem;
+	--nav-height-minus: -8rem;
 
     /* Color */
     --navy-blue: #000033;
+    --light-blue: #70a6ff;
+    --black-transparent: rgba(0,0,0,0.5);
+    --light-grey: #F7F7F7;
 }
 
-[data-bg-color="navy"]{
-	background-color: var(--navy-blue);
-}
+[data-font="white"]{color: white;}
+
+[data-bg-color="navy"]{background-color: var(--navy-blue);color: white;}
+[data-bg-color="Teal"]{background-color: var(--light-blue);}
 
 /* Data attribute that makes img/video cover the screen*/
 [data-fullscreen]{
@@ -78,7 +82,7 @@ nav > div > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #555;
     position: fixed;
     top: 0;
     width: 100%;
@@ -91,14 +95,16 @@ nav > div > ul > li {
 
 nav > div > ul > li:last-child {
     border-right: none;
+    float: right;
 }
 
 nav > div > ul > li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
 
 }
 
@@ -108,6 +114,6 @@ nav > div > ul > li a {
 }
 
 nav > div > ul > li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #70a6ff;
     color: white;
 }
