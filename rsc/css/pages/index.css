@@ -1,13 +1,17 @@
 /* Root variabler */
 :root{
     /* Header/nav bar */
-	--nav-height-minus: -8rem;
+	--nav-height-minus: 3.2rem;
 
     /* Color */
     --navy-blue: #000033;
     --light-blue: #70a6ff;
     --black-transparent: rgba(0,0,0,0.5);
     --light-grey: #F7F7F7;
+}
+
+body {
+    margin-top: var(--nav-height-minus);
 }
 
 [data-font="white"]{color: white;}
