@@ -5,6 +5,7 @@
 [data-bg-color="black"]{background-color: black;}
 [data-bg-color="grey"]{background-color: grey;}
 [data-bg-color="blue"]{background-color: blue;}
+[data-bg-color="turquoise"]{color: #01B7CD;} /* Fargen kunden ønsket til ikoner etc */
 
 .fontLarge{
 	font-size: 20px;
