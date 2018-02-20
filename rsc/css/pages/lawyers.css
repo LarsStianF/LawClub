@@ -1,0 +1,69 @@
+	.en {
+		border: 1px solid black;
+		width: 500px;
+		padding: 10px;
+		margin: 25px;
+		padding-bottom: 75px;
+	}
+	.to {
+		border: 1px solid black;
+		width: 500px;
+		padding: 10px;
+		margin: 25px;
+	}
+	.tre {
+		border: 1px solid black;
+		width: 500px;
+		padding: 10px;
+		margin: 25px;
+	}
+	.fire {
+		border: 1px solid black;
+		width: 500px;
+		padding: 10px;
+		margin: 25px;
+	}
+
+	img {
+		height: 100px;
+		width: 80px;
+		float: left;
+		margin-right: 5px;
+		margin-left: 5px;
+
+	}
+	.fnavn {
+		margin-left: 100px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 20px;
+		color: lightblue;
+
+	}
+	.le {
+		margin-left: 100px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+
+	}
+	.button {
+		background-color: #145dd1;
+		border-radius: 4px;
+		color: white;
+		text-align: center;
+		float: left;
+		display: inline-block;
+		font-size: 10px;
+		padding: 15px 25px;
+		margin: 4px 2px;
+		cursor: pointer;
+
+	}
+	span{
+		padding-top: 5px;
+		float: right;
+		cursor: pointer;
+	}
+	.checked {
+		color: orange;
+	
+	}
