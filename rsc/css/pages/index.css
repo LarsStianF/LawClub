@@ -1,3 +1,4 @@
+
 /* Root variabler */
 :root{
     /* Header/nav bar */
@@ -17,13 +18,28 @@
 
 /* Caption text */
 [data-text-middle] {
-  color: #f2f2f2;
-  padding: 8px 12px;
+  color: rgb(255, 254, 254);
+  font-size: 2.5vw;
   position: absolute;
   bottom: 60%;
   width: 100%;
   text-align: center;
+  text-shadow:-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;  
+
 }
+
+[data-text-icons] {
+    display: flex;
+    justify-content: space-around;
+    background:rgba(0,0,0,0.3);
+    color: #E0E0E0;
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+    text-shadow:-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1px 1px 0 #000;  
+     
+  }
 
 /* Data attribute that makes img/video cover the screen*/
 [data-fullscreen]{
@@ -126,4 +142,55 @@ nav > div > ul > li a {
 nav > div > ul > li a:hover:not(.active) {
     background-color: #70a6ff;
     color: white;
+}
+
+
+body.index{
+    background-image: url("../../../rsc/img/natur_fall.JPG");
+    background-repeat: no-repeat;
+}
+
+/* Ikon informasjon & navigasjon */
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1vw;
+}
+
+
+
+
+a:hover{
+    color: #718fa9;
+    display: inline-block;
+    transition-property: color;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
 }
