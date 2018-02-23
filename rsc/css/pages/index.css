@@ -11,10 +11,6 @@
     --light-grey: #F7F7F7;
 }
 
-body {
-    margin-top: 3.5rem;
-}
-
 [data-font="white"]{color: white;}
 
 [data-bg-color="navy"]{background-color: var(--navy-blue);color: white;}
