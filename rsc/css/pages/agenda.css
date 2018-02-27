@@ -10,11 +10,11 @@
 
 .b1 {display: inline-block;
 position: relative;
-margin: 10px;
+margin: 1vw;
 float: left 0%;
 width: var(--width-box);
-height: 400px;
-padding: 10px;
+height: 30vw;
+padding: 1vw;
 border: 3px solid black;
 }
 
