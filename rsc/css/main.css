@@ -7,6 +7,12 @@
 [data-bg-color="blue"]{background-color: blue;}
 [data-bg-color="turquoise"]{color: #01B7CD;} /* Fargen kunden ønsket til ikoner etc */
 
+
+body{
+	padding-top: 3vw;
+}
+
+
 .fontLarge{
 	font-size: 20px;
 }
