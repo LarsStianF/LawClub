@@ -10,33 +10,33 @@
 
 .b1 {display: inline-block;
 position: relative;
-margin: 1vw;
+margin: 1rem;
 float: left 0%;
 width: var(--width-box);
-height: 30vw;
-padding: 1vw;
+height: 25rem;
+padding: 1rem;
 border: 3px solid black;
 }
 
 
 .b2 {display: inline-block;
 position: relative;
-margin: 10px;
+margin: 1rem;
 float: middle 25%;
 width: var(--width-box);
-height: 400px;
-padding: 10px;
+height: 25remp;
+padding: 1rem;
 border: 3px solid black;
 }
 
 
 .b3 {display: inline-block;
 position: relative;
-margin: 10px;
+margin: 1rem;
 float: right 75%;
 width: var(--width-box);
-height: 400px;
-padding: 10px;
+height: 25rem;
+padding: 1rem;
 border: 3px solid black;
 }
 
