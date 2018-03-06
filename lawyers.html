@@ -2,9 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Javascript and css import -->
-    <script type="text/javascript" src="rsc/js/head.js"></script>
+    <script type="text/javascript" src="rsc/js/head.js">
+    	var modal = document.getElementById('modalid');
+    	var button = document.getElementById("buttonid");
+    	var span = document.getElementsByClassName("close")[0];
+
+			    button.onclick = function() {
+			   modal.style.display = "block";
+		}
+				span.onclick = function() {
+    		modal.style.display = "none";
+		}
+				window.onclick = function(event) {
+    		if (event.target == modal) {
+        		modal.style.display = "none";
+    		}
+		}
+    </script>
     <!-- JQuery Import -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
@@ -36,34 +53,16 @@
 	<p class="fnavn">Fornavn Etternavn</p>
 	<p class="le">Lokasjon</p>
 	<p class="le">Erfaring</p>
-	<button class="button">View Profile</button>
-	<span class="fa fa-star checked"></span>
-	<span class="fa fa-star checked"></span>
-	<span class="fa fa-star checked"></span>
-	<span class="fa fa-star"></span>
-	<span class="fa fa-star"></span>
-</div>
+	<button id=buttonid class="button">View Profile</button>
 
-<div class="to">
-	<img src="Eksempelbilder/Ørken.jpg">
-	<p class="fnavn">Fornavn Etternavn</p>
-	<p class="le">Lokasjon</p>
-	<p class="le">Erfaring</p>
+	<div id="modalid" class=modal>
+		<div class=modal-content>
+			<span class="close">&times;</span>
+			<p>heiheiheiheih</p>
+		</div>
+	</div>
 </div>
 
 
-<div class="tre">
-	<img src="Eksempelbilder/Ørken.jpg">
-	<p class="fnavn">Fornavn Etternavn</p>
-	<p class="le">Lokasjon</p>
-	<p class="le">Erfaring</p>
-</div>
-
-<div class="fire">
-	<img src="Eksempelbilder/Ørken.jpg">
-	<p class="fnavn">Fornavn Etternavn</p>
-	<p class="le">Lokasjon</p>
-	<p class="le">Erfaring</p>
-</div>
 </body>
 </html>
