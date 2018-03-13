@@ -9,13 +9,13 @@
 		margin: 25px;
 		padding-bottom: 5rem;
 		margin-left: 24rem;
-		background-color: white;
+		background-color: #5c6c79;
 		border-radius: 0.4rem;
 
 
 	}
 
-
+ 
 	img {
 		height: 6rem;
 		width: 5rem;
@@ -28,13 +28,14 @@
 		margin-left: 100px;
 		font-family: "Times New Roman", Times, serif;
 		font-size: 20px;
-		color: blue;
+		color: #01B7CD;
 
 	}
 	.le {
 		margin-left: 100px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 13px;
+		color: white;
 
 	}
 	.button {
