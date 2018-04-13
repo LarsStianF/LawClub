@@ -24,11 +24,11 @@ input[type=text], input[type=password] {
     outline:none
 }
 
-button:hover {     
+login > button:hover {     
     background-color:#3BABDB;    
 }
 
-button:focus {     
+login > button:focus {     
     background-color:#297799;    
 }
 
