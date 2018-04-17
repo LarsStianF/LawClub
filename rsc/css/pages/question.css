@@ -4,14 +4,15 @@ body {
     min-height: 100%;
     position: relative;
     padding-bottom:[footer-height];
+    background-color: #bec8d8;
 }
 
-.accordion {
+.accordionq {
 
 	
 	
 	text-align: left;
-	background-color: white;
+	background-color: #bec8d8;
 	color: #444;
 	cursor: pointer;
 	margin-left: 20%;
@@ -24,16 +25,17 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	outline: none;
+	border: none;
 
 
 
 }
 
-.accordion:hover{
+.accordionq:hover{
 	font-size: 27px;
 }
 
-.panel {
+.panelq {
 	
 	
 	
@@ -41,7 +43,7 @@ body {
 	margin-right: 20%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-    background-color: white;
+    background-color: #bec8d8;
     
     display: none;
     overflow: hidden;
@@ -62,7 +64,7 @@ body {
 	
 }
 
-.accordion:after {
+.accordionq:after {
 	content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
