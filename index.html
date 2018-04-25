@@ -5,6 +5,7 @@
 
     <!-- Javascript and css import -->
     <script type="text/javascript" src="rsc/js/head.js"></script>
+    <script type="text/javascript" src="rsc/js/index.js"></script>
     <!-- JQuery Import -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     
@@ -20,63 +21,84 @@
     <nav>
       
       <div>
-        
         <ul>
           
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="agenda.html">Agenda</a></li>
           <li><a href="lawyers.html">Lawyers</a></li>
           <li><a href="question.html">Ask a question</a></li>
-          <li><a href="login.html">Log in/sign up</a></li>
 
+
+            <!-- Navbar som blir aktivert hos mobiler og mindre skjermer -->
+                <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunction()">Menu <i class="material-icons" style="font-size:16px;" >apps</i>
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div> 
+          <li><a href="login.html">Log in/sign up</a></li>
         </ul>
 
       </div>
 
     </nav>
 
+
+
     <section data-fullscreen>
-      
-
-        <div data-font="white">
-
-          <script>   
-              function myFunction() {
-              location.reload();
-              }
-           </script>
-
           <h1 data-text-middle class="animated-example animated fadeIn">Welcome to WiLaw</h1>
 
-          <div data-text-icons class="animated-example animated fadeIn">
 
-            <article class="agenda-info">
-              <a href="agenda.html"><i class="material-icons" style="font-size:52px;">domain</i> </a>
-              <h3>Agenda</h3>
-              <p>Here you can see a list of our agendas</p>
-            </article>
+          <div class="BoxContainer animated fadeIn">
 
-            <article class="lawyers-info">
-              <a href="lawyers.html"><i class="material-icons" style="font-size:52px;">portrait</i> </a>
-              <h3>Lawyers</a></h3>
-              <p>This page contains information about all our lawyers</p>
-            </article>
-
-            <article class="question-info">
-              <a href="question.html"><i class="material-icons" style="font-size:52px;">question_answer</i> </a>
-              <h3>Ask a question</h3>
-              <p>If you've got a question, then visit this page!</p>
-            </article>
-
-            <article class="login-info">
-              <a href="login.html"><i class="material-icons" style="font-size:52px;">exit_to_app</i> </a>
-              <h3>Login / Sign Up</a></h3>
-              <p>Click here to login or sign up</p>
-            </article>
-        </div>
-
-        </div>
-
+              <div class="Box1 Box2">
+                <h3>Our value</h3>
+                  <p>
+                      -	Providing an effective way in connecting LSPs and customers. We reduce the cost and time by eliminating traditional meetings and documenting processes
+                      <br>
+                      <br>
+                      -	AI technology in matching cases. We adopt latest AI technology in recommending the best matched LSPs to customer`s cases
+                      <br>
+                      <br>
+                      -	Socializing legal service to everyone. We focus on the demand of initial advices and small-scale cases that clients do not want to spend time to meet LSPs in person
+                      </p>
+                </div>
+      
+      
+                <div class="Box1">
+                    <h3>About us</h3>  
+                  <p>
+                    At WiLegal, we would like to make various legal services quick, reliable, and affordable for customers and provide the modern means to approach potential customers for LSPs.
+                        <br>                        
+                        WiLegal is the first law-tech start-up business in Vietnam using Artificial Intelligence (AI) technology in legal services.
+                        <br>
+                        Legal system is created to protect our legitimate rights and interest. LSPs are professionals who give the advice to people.
+                        <br>
+                        WiLegal is the virtual broker that connects the LSPs and the customers; 
+                        <br>
+                        you can find and hire lawyers or law firms in Vietnam through our platform.
+                        <br>
+          
+                        </p>
+                  </div>
+      
+                  <div class="Box1 Box2">
+                      <h3>Our vision</h3>
+                      <p> 
+                          We are making the platform to become the best partner to both LSPs and clients who live or invest in Vietnam. 
+                          <br>
+                          Customers could get the trusted advices and stable relationship with LSPs through our platform. 
+                          <br>
+                          The LSPs could develop their customer network and approach them in the new way, not just in person.
+                          <br>
+                          We believe that all of us have the benefit with this platform. 
+                          </p>
+                    </div>
+          </div>
     </section>
   </body>
 </html>
