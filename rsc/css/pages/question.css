@@ -26,9 +26,10 @@ body {
 	margin-bottom: 0;
 	outline: none;
 	border: none;
+}
 
-
-
+p > a {
+	color:blue;
 }
 
 .accordionq:hover{
