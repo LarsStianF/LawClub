@@ -1,16 +1,13 @@
-	.lawyers {
-		background-color: #bec8d8;
-	}
-
-	.en {
+	.BoxL {
 		border: 1px solid black;
-		width: 30rem;
-		padding: 10px;
-		margin: 25px;
+		width: 35rem;
+		padding: 1rem;
 		padding-bottom: 5rem;
-		margin-left: 24rem;
 		background-color: #5c6c79;
 		border-radius: 0.4rem;
+		margin: auto;
+		margin-bottom: 1rem;
+		margin-top: 1rem;
 
 
 	}
@@ -18,7 +15,7 @@
  
 	img {
 		height: 6rem;
-		width: 5rem;
+		width: 5.1rem;
 		float: left;
 		margin-right: 0.5rem;
 		margin-left: 0.1rem;
@@ -32,7 +29,7 @@
 		color: #01B7CD;
 
 	}
-	.le {
+	.Law {
 		margin-left: 100px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 13px;
