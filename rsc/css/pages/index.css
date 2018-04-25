@@ -145,6 +145,7 @@ section > video{
 
 /* Nav bar settings */
 nav > div > ul {
+    z-index: 1000;
     list-style-type: none;
     margin: 0;
     padding: 0;
