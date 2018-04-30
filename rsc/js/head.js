@@ -23,6 +23,7 @@ document.write(
     '<link rel="stylesheet" type="text/css" href="rsc/css/pages/lawyers.css">' +
     '<link rel="stylesheet" type="text/css" href="rsc/css/pages/login.css">' +
     '<link rel="stylesheet" type="text/css" href="rsc/css/pages/question.css">' +
+    '<link rel="stylesheet" type="text/css" href="rsc/css/pages/lawyerprofile.css">' +
     '<!-- CSS import: Slutt -->' +
 
     '<!-- JS import: Start -->' +

@@ -18,11 +18,11 @@
 
 /* Caption text */
 [data-text-middle] {
+  display: flex;
   color: rgb(255, 254, 254);
   font-size: 2.5vw;
   position: absolute;
-  bottom: 80%;
-  width: 100%;
+  top: 5vw;
   text-align: center;
   text-shadow:-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;  
 
@@ -78,17 +78,10 @@
 
 /* Data attribute that makes img/video cover the screen*/
 [data-fullscreen]{
-    /* Visning: */
+    display: flex;
+    justify-content: center;
     align-items: center; 
-
-    /* Dimensjoner: */
-    height: 100vh;
-    min-height: 100vh;
-    max-height: 100vh;
-
-    /* Posisjon: */
-    padding: 0 0;
-    margin-top: var(--nav-height-minus);
+    height: 50vw;
 }
 
 
@@ -258,6 +251,62 @@ a:hover{
    /* Mobile devices portrait */
    @media (min-width: 1px) and (max-width: 764px) and (orientation: portrait)  {
 
+
+
+    /* MAIN CONTENT */
+
+    .BoxContainer{
+        display: flex;
+        top: -13vw;
+        flex-direction: column;
+        z-index: -1000;
+        display: flex;
+        margin-left: -10vw;
+    }
+
+
+    .Box1{
+    padding: 1.2vw;
+    text-align: center;
+    width: 50vw;
+    height: 130vw;
+    margin-top: 90vw;
+    margin-left: 10vw;
+    }
+
+
+
+    .Box2{
+        height: 10vw;
+    }
+
+.Box1 > p{
+    font-size: 3vw;
+    line-height: 5vw;
+}
+
+.Box1 > h3 {
+    font-size: 8vw;
+}
+
+
+
+ /* WELCOME TO WILAW TEXT */
+[data-text-middle] {
+    display: flex;
+    margin-top: 20vw;
+    justify-content: center;
+    top: 5vw;
+  
+  }
+  
+
+
+
+
+
+
+
     /* DROPDOWN MENU */
 
 /* Dropdown Button */
@@ -365,8 +414,8 @@ nav > div > ul > li a:hover:not(.active) {
     color: white;
 }
 
-
+}
      /* Mobile devices portrait */
-   @media (min-width: 1px) and (max-width: 764px) and (orientation: portrait){
-    
-
+   @media (min-width: 900px) and (max-width: 1300px) and (orientation: portrait){
+       
+   }

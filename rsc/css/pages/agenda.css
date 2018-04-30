@@ -1,23 +1,17 @@
-
-
-:root{
-
---width-box: 250px;
-
-}
-
 .container{
 	display: flex;
 	justify-content: center;
+	width: 75vw;
 }
 
 .b1 {
+background-color:rgba(0, 0, 0, 0.2);
 position: relative;
 margin: 1.2vw;
 line-height: 2vw;
 color: white;
 text-shadow:-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;  
-width: var(--width-box);
+width: 50vw;
 padding: 1rem;
 border: 0.2vw solid black;
 }

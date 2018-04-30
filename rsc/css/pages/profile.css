@@ -1,0 +1,58 @@
+.flex{
+	display: flex;
+	font-size: 1.5vw;
+	width: 50%;
+	justify-content: center;
+	margin-top: 5%;
+	margin-left: 25%;;
+	background-color: #5454c9;
+	border-style: solid;
+	border-color: #5555c7;
+}
+
+.profile-header{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	
+}
+
+.tab{
+	padding-left: 2vw;
+	padding-right: 2vw;
+	color: white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.account{
+	display: flex;
+	width: 50.5%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 25%;
+	background-color: #dbdbec;
+}
+
+.account > p{
+	border-style: solid;
+	border-color: #cdcddf;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	width: 40%;
+	font-weight: 600;
+	color: white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+.messages{
+	display: flex;
+	width: 50.5%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 25%;
+	background-color: #dbdbec;
+}

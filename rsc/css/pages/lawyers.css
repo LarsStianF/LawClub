@@ -8,6 +8,7 @@
 		margin: auto;
 		margin-bottom: 1rem;
 		margin-top: 1rem;
+		font-weight: 700;
 	}
 
 
@@ -33,7 +34,9 @@
 		font-family: "Times New Roman", Times, serif;
 		font-size: 2vw;
 		line-height: 3vw;
-		color: rgb(20, 20, 20);
+		color: rgb(77, 95, 168);
+		font-weight: 900;
+		text-shadow:-0.2px -1.3px 0 #000, 1px -1px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;  
 
 	}
 	.Law {
@@ -64,4 +67,8 @@
 	.checked {
 		color: orange;
 	
+	}
+
+	.buttonLink{
+		color: white;
 	}
